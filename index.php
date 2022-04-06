@@ -44,8 +44,7 @@
 
   $victory = true;
   const shouldMatch = ['a1', '-7', 'x9', 'q!3', 'b2', 'g!0', 'x-4', 'k5', 'l!0', '-!3'];
-  const shouldNotMatch = ['e?2',  'y1', 'gg', '-', '!', '44', 'a', 'z9', '5k', '!0'];
-
+  const shouldNotMatch = ['y1', 'gg', '-', 'e!!2',  '!', '44', 'a', 'z9', '5k', '!0'];
   ?>
   <div class="block columns">
     <div class="column">
