@@ -18,13 +18,13 @@
   <h1 class="block title is-1">Mogular Expretus</h1>
   <p class="block">You know regular expressions? You know <a href="https://fr.wikipedia.org/wiki/Motus_(jeu_t%C3%A9l%C3%A9vis%C3%A9)">Motus</a>? Well, you're ready to go. <strong>The regex you have to find is exactly 10 characters long.</strong> (without boundaries)</p>
   <form method="POST" class="block">
-    <p class="field has-addons">
+    <p class="field control is-expanded">
       <label class="label">
         Regex
         <span class="field has-addons">
           <span class="control"><span class="button is-static">/</span></span>
-          <span class="control">
-            <input type="text" name="regex" class="input is-expanded" required maxlength="10" value="<?= isset($_POST['regex']) ? htmlspecialchars($_POST['regex']) : '' ?>">
+          <span class="control is-expanded">
+            <input type="text" name="regex" class="input" required maxlength="10" value="<?= isset($_POST['regex']) ? htmlspecialchars($_POST['regex']) : '' ?>">
           </span>
           <span class="control"><span class="button is-static">/</span></span>
         </span>
