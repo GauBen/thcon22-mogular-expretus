@@ -1,6 +1,6 @@
 # Mogular Expretus
 
-Mogular Expretus is a CTF challenge of the THCon 2021, in the web category.
+Mogular Expretus is a CTF challenge of the THCon 2022, in the web category.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/48261497/215288115-ed67255b-08cc-43a8-9441-fc4a8d8b88a0.png" alt="Screenshot of the challenge">
